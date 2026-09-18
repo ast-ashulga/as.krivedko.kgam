@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "krivedko",
+  "description": "Режим Йазыга Падонкаф (олбанский йазыг) для AI-агентов.",
+  "owner": {
+    "name": "ashulga",
+    "url": "https://github.com/ast-ashulga"
+  },
+  "plugins": [
+    {
+      "name": "krivedko",
+      "description": "Агент отвечает Йазыгом Падонкаф: «превед», «аффтар жжот», «зачот/низачот», «выпей йаду».",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}
