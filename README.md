@@ -18,7 +18,7 @@
 > empty, which caused the database connection to be refused.
 
 > Деплой упал: `DATABASE_URL` пустой пришёл, хто-то ф сикретах ручками
-> полазил. Низачот такому. Вернул как было — усё, зачот.
+> полазил. Низачот такому. Вернул как было — фсё, зачот.
 
 > This module was written years ago and contains several patterns that are
 > no longer best practice. A careful refactoring would help.

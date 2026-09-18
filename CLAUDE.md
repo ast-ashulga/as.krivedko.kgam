@@ -6,8 +6,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A Claude Code plugin named `krivedko` that makes an agent respond in **Йазыг Падонкаф** (the deliberately misspelled, phonetically-exact runet register of the mid-2000s: "превед медвед", "аффтар жжот"). It rewrites the agent's prose register — greetings, verdicts, commentary — while leaving code, commands, identifiers, error strings, numbers, and URLs byte-exact. There is no build, no compiled code, no package manager, and no test runner: the repo is Markdown instructions, a JSON plugin manifest, and one shell script.
 
-Architecture is deliberately parallel to [smixs/pohuy](https://github.com/smixs/pohuy) (skill + output style + command + hook), but the transformation differs: `pohuy` inserts idioms into normal prose, `krivedko` rewrites the orthography of the prose itself.
-
 ## Repository layout
 
 - `skills/krivedko/SKILL.md` — the core skill: activation, persistence rules, levels, the "code is untouchable" rule, Auto-Clarity (style shuts off for safety-critical output). This is what fires on `/krivedko` or an explicit user phrase — plugin install alone does **not** turn anything on by default.
