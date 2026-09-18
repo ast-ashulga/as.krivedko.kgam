@@ -68,7 +68,7 @@
 ```bash
 # Claude Code — плагин (скилл срабатывает по /krivedko или явной фразе)
 claude plugin marketplace add ast-ashulga/as.krivedko.kgam
-claude plugin install krivedko@krivedko
+claude plugin install krivedko@kgam
 ```
 
 Включить как постоянный output style (одной командой, отдельное явное

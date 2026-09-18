@@ -19,7 +19,7 @@ Architecture is deliberately parallel to [smixs/pohuy](https://github.com/smixs/
 - `output-styles/krivedko.md` — an always-on output style variant of the same rules, installed system-wide via `install.sh` (separate, explicit opt-in — not enabled by the plugin install).
 - `hooks/style-reminder.sh` — a `UserPromptSubmit` hook that re-injects "Krivedko output style is active" every turn, because Claude Code only auto-reinforces its own built-in output styles, not custom ones. Without this, the register fades out over a long session.
 - `install.sh` — one-shot installer that copies the output style, skill, references, and hook into `~/.claude/` and wires `outputStyle: "Krivedko"` plus the hook registration into `~/.claude/settings.json` (via a small embedded Python snippet; falls back to a `sed` no-op message if `python3` is absent).
-- `.claude-plugin/plugin.json` / `marketplace.json` — plugin + marketplace manifests for `claude plugin install krivedko@krivedko`.
+- `.claude-plugin/plugin.json` / `marketplace.json` — plugin + marketplace manifests for `claude plugin install krivedko@kgam`.
 - `evals/evals.json` — five eval prompts for `skill-creator`, covering: byte-exact error text preservation, verdicts aimed at code/bug not the user, legacy-code review register, the `DROP TABLE` Auto-Clarity guard, and staying in Russian when the input is English.
 
 ## The one rule that matters everywhere in this repo

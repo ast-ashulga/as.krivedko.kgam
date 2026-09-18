@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "krivedko",
+  "name": "kgam",
   "description": "Режим Йазыга Падонкаф (олбанский йазыг) для AI-агентов.",
   "owner": {
     "name": "ashulga",
